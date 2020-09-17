@@ -40,7 +40,6 @@ self.addEventListener('fetch', event => {
 
 self.addEventListener('sync', event => {
     console.log("Internet connection is back");
-    console.log(event);
     console.log(event.tag);
 });
 
