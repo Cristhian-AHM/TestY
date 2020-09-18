@@ -7,6 +7,6 @@
 
 self.addEventListener('fetch', event => {
     event.respondWith(
-        fetch(event.request).then(resp => resp.ok ? resp : fetch('img/main.jpg'))
+        fetch(event.request).then(resp => resp.ok ? resp : fetch('main.jpg'))
     );
 });
